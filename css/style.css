@@ -1,0 +1,555 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  background-image: url("../img/bgimage.jpeg");
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: #7466cc;
+}
+
+.container {
+  max-width: 90vw;
+  margin-left: 4.5rem;
+  /* border: 2px solid red; */
+}
+
+.navbar {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  box-shadow: 0px 0px 20px 0px #aaaaaaaa;
+}
+
+.navbar a {
+  float: right;
+}
+
+.navbar a:link,
+.navbar a:visited {
+  color: #7466cc;
+}
+.navbar a:hover {
+  border-bottom: 2px solid #7466cc;
+}
+.navbar .logo {
+  margin-top: 1rem;
+  float: left;
+  color: #7466cc;
+}
+
+.navbar .nav-item {
+  display: inline-block;
+  padding: 0.5rem;
+  /* text-transform: uppercase; */
+  font-weight: 700;
+}
+
+.navbar .nav-items {
+  float: right;
+  margin-top: 1rem;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/* ############################## HEADER STYLE ################################# */
+.header {
+  max-height: 110vh;
+  display: flex;
+
+  /* background-image: url("../img/bgimage.jpeg"); */
+}
+
+.left-header {
+  float: left;
+  width: 60%;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.right-header {
+  float: right;
+  width: 40%;
+}
+
+.right-header img {
+  margin-top: 3rem;
+  height: 85%;
+  width: 100%;
+  padding-right: 1rem;
+  border-radius: 15px;
+}
+
+.header-btn a{
+  /* margin-top: 2rem; */
+  color: #f4f4f4;
+  font-weight: bold;
+}
+
+
+/* Add this to your existing CSS */
+.header {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/* ############################ABOUT SECTION STYLING #################### */
+
+.m-width{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.about-container{
+  display: flex;
+  margin-top: 2rem;
+  height:25rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.about-container .left-about{
+  float: left;
+  width:30%;
+ 
+}
+.about-container .right-about{
+  float: right;
+  width:70%;
+   padding: 0 1.5rem;
+}
+
+.left-about img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 0px #aaa;
+  transition: transform 0.3s ease;
+  border: 1.5px solid black;
+}
+
+.left-about img:hover {
+  
+  transform: scale(1.05);
+}
+
+.right-about p{
+  margin-top: 1rem;
+}
+.right-about h1{
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.right-about h1::after{
+  content: "";
+  display: block;
+  border: 3px solid #7466cc;
+  width: 100%;
+}
+
+.right-about .about-link{
+  margin-top: 1rem;
+}
+.right-about .about-details li{
+  padding-bottom: 0.5rem;
+}
+.about-link a{
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+.about-link a:hover{
+  transition: all 0.5s;
+  border-bottom: 2px solid #7466cc;
+}
+
+.about-details{
+  margin: 0.8rem 2rem;
+}
+
+.about-container .socal-media-links{
+  background-color: #7466cc;
+}
+
+
+
+
+/* ########################## PROJECT SECTION STYLING ######################### */
+
+.section-heading {
+  text-align: center;
+  
+  margin: 1rem 0;
+}
+
+
+/* Add this to your existing CSS */
+
+
+.project-section-heading h1{
+  font-size: 3rem;
+  padding-top: 2rem;
+}
+
+.section-heading::after{
+  content: "";
+  display: block;
+  border: 3px solid #7466cc;
+  width: 100%;
+}
+
+.projectContainer {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-between;
+  
+}
+
+.project {
+  /* position: relative; */
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 0px #aaa;
+}
+
+
+.project1 {
+  float: left;
+  width: 30%;
+}
+
+.project2 {
+  float: left;
+  width: 30%;
+}
+
+.project3 {
+  float: right;
+  width: 30%;
+}
+.project4 {
+  float: left;
+  width: 30%;
+}
+
+.project5 {
+  float: left;
+  width: 30%;
+}
+
+.project6 {
+  float: right;
+  width: 30%;
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  /* box-shadow: 0px 0px 20px 0px #aaa; */
+  border: 1.5px solid black;
+}
+
+.project img:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+
+
+.project-txt{
+  padding: 1rem;
+}
+.project h1{
+  color: #7466cc;
+  margin-bottom: 1rem;
+}
+
+.project-media a{
+  padding: 1rem;
+}
+
+.section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* #####################CONTACT FORM STYLE ############################## */
+/* ################### CONTACT PAGE STYLING ################# */
+
+.contact-wrapper{
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.contact-wrapper .first-col{
+  float: left;
+  width: 49%;
+  background-color:#fff;
+}
+
+
+.contact-box i{
+  display: inline-block;
+  margin-right: 0.2rem;
+}
+.contact-box h2{
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.contact-box img{
+  max-width: 85%;
+  min-height: 25rem;
+  object-fit: cover;
+  object-position: right;
+}
+.contact-wrapper::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* ################# CONTACT PAGE FORM STYLING ################ */
+
+.contact-wrapper .form{
+  font-size: 1rem;
+  float: right;
+  width: 49%;
+  background-color:#fff;
+  padding: 1rem;
+}
+
+.form h1::after{
+  content: "";
+  display: block;
+  border: 3px solid #7466cc;
+  width: 100%;
+}
+
+.form label{
+  display: block;
+}
+
+.form input{
+  padding: 0.5%;
+  width: 100%;
+}
+.form-group lable{
+  color: #555555;
+  font-weight: 700;
+}
+.form .form-group label::after{
+  content: "*";
+  color: #e63946;
+}
+
+.form a{
+  color: #e63946;
+}
+.form p{
+  padding: 1rem 0;
+}
+
+.form textarea{
+  width: 100%;
+  height:20rem;
+  padding: 1rem;
+}
+
+/* ##################3 footer style ##################### */
+
+.footer {
+  background-color: #121212eb;
+  color: #f4f4f4;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.socal-media-links .fa-brands {
+  padding: 3px 0;
+}
+
+.socal-media-links a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #f4f4f4;
+  margin: 0 1rem;
+}
+.socal-media-links a:hover {
+  /* box-shadow: 0px 0px 20px 0px #aaa ; */
+  font-size: 1.9rem;
+  border-bottom: 2px solid #fff;
+}
+
+.copyright {
+  text-align: center;
+}
+
+
+/* ############################media query ############################  */
+
+
+/* Mobile Phones */
+@media screen and (max-width: 480px) {
+  .html {
+    font-size: 50%;
+  }
+  
+  .container {
+    margin-left: 1.5rem;
+  }
+  .navbar .logo {
+    margin-top: 0.5rem;
+  }
+  .navbar .nav-item {
+    font-size: 0.9rem;
+    padding: 0.3rem;
+  }
+  .header {
+    max-height: auto;
+    flex-direction: column-reverse;
+  }
+  .left-header,
+  .right-header {
+    width: 100%;
+    margin: 1rem 0;
+    /* text-align: center; */
+  }
+  .right-header img {
+    /* height: auto; */
+    display: none;
+  }
+  .about-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .about-container .left-about,
+  .about-container .right-about {
+    width: 100%;
+    /* text-align: center; */
+  }
+  .about-container .left-about img {
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .about-details {
+    margin: 0.5rem;
+  }
+
+  .section-heading {
+    text-align: left;
+    
+  }
+
+  .projectContainer {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .project1,
+  .project2,
+  .project3,
+  .project4,
+  .project5,
+  .project6 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .project img {
+    height: auto;
+  }
+  .contact-wrapper .first-col,
+  .contact-wrapper .form {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .contact-box img {
+    max-width: 100%;
+    object-position: center;
+  }
+  .form input,
+  .form textarea {
+    padding: 2%;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .container {
+    margin-left: 2rem;
+  }
+  .navbar .nav-item {
+    padding: 0.4rem;
+  }
+  .header {
+    max-height: auto;
+  }
+  .right-header img {
+    height: 75%;
+  }
+  .about-container {
+    height: auto;
+  }
+  .about-container .left-about {
+    width: 35%;
+  }
+  .about-container .right-about {
+    width: 65%;
+    padding: 0 2rem;
+  }
+  .project1,
+  .project2,
+  .project3,
+  .project4,
+  .project5,
+  .project6 {
+    width: 30%;
+  }
+
+  .project .img{
+  height: 17vw;
+  width: 26.5vw;
+}
+  .contact-wrapper .first-col,
+  .contact-wrapper .form {
+    width: 48%;
+  }
+}
