@@ -30,9 +30,6 @@ Screenshots
 <img width="932" alt="Screenshot 2023-08-12 123350" src="https://github.com/Manoranjan111/Website/assets/95931051/c7bb1ac0-8332-437a-8c6f-214f3e546a0e">
 <img width="895" alt="Screenshot 2023-08-12 123407" src="https://github.com/Manoranjan111/Website/assets/95931051/d740187b-efce-4251-9e97-d69635eccaf8">
 <img width="914" alt="Screenshot 2023-08-12 123425" src="https://github.com/Manoranjan111/Website/assets/95931051/49acd203-03f0-4e63-8cda-222f19b344be">
-![WhatsApp Image 2023-08-12 at 12 37 20 PM](https://github.com/Manoranjan111/Website/assets/95931051/dbffed9b-a76b-4cb6-ba75-a4d3bd66c40f)
-![WhatsApp Image 2023-08-12 at 12 37 20 PM (1)](https://github.com/Manoranjan111/Website/assets/95931051/856f2450-38a2-4743-b653-64a6d20f1838)
-![WhatsApp Image 2023-08-12 at 12 37 21 PM](https://github.com/Manoranjan111/Website/assets/95931051/eff493f4-aaf6-4aee-8fc7-0e00f0982d28)
 
 Contributing
 I appreciate any feedback or suggestions you may have for improving my portfolio website. If you encounter any issues or have ideas for enhancements, please feel free to submit an issue or create a pull request.
